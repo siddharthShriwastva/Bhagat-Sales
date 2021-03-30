@@ -1,0 +1,239 @@
+.SVG:hover{
+  filter: invert(28%) sepia(50%) saturate(2497%) hue-rotate(329deg) brightness(96%) contrast(96%);
+}
+/* navbar style */
+.img{
+  width:60px;
+  height:auto;
+  position:absolute;
+  top:10px;
+}
+.pad-30{
+  padding-left: 65px;
+}
+/* carousel style */
+
+.right{
+  float:right;
+}
+
+.carousel-item .slide{
+  width:100vw;
+  height:100vh;
+  object-fit: cover;
+}
+
+.jumbotron{
+  background:transparent !important;
+
+}
+.absolute{
+  position: absolute;
+  bottom: 100px;
+}
+.relative{
+  position: relative;
+}
+
+.right{
+  top:15%;
+  right: 5%;
+  left:50%;
+}
+
+.left{
+  top:15%;
+  left:10%;
+  right:40%;
+  /* height:auto;
+  width:400px; */
+}
+
+.center{
+  top:35%;
+  left: 25%;
+  right:25%
+  /* width:500px;
+  height: auto; */
+}
+
+.card-relative{
+  position: relative;
+  left: 15%;
+  right:15%;
+  width:70%;
+  top: -20px;
+}
+
+.welcome-image{
+  padding: 10px;
+  /* width:100%; */
+  height:auto;
+  /* transform: rotateY(180deg); */
+}
+
+.welcome-pad-bottom{
+  padding-bottom: 20px;
+}
+.img-rel{
+  width:50%
+}
+.WhyUS{
+  padding-top: 20px;
+  text-align: center;
+  width:70%;
+}
+.dash{
+  background-color: crimson;
+    height: 8px;
+    width: auto;
+    border-radius: 10px;
+    margin:3% 45% 10% 45%;
+}
+
+.image-md{
+  display:none;
+}
+
+.team,.up,.customer{
+  width:30%;
+  height:auto;
+}
+
+/* product-type */
+.bg-img{
+  background: url('img/bg2.jpg') center center fixed;
+  background-size: cover;
+}
+
+.bg-color{
+    background-color: #000000;
+    opacity: 0.9;
+    text-align:center;
+}
+
+.product-carousel{
+  width:80%;
+  margin:30px 15% 30px 15%;
+}
+
+.product{
+  margin:10px 0px 10px 0px;
+  border-radius: 8px;
+}
+
+.card{
+  margin:0px 0px 15px 0px;
+}
+.product:hover{
+  transform:scale(1.08);
+  transition:0.5s all ease-in-out;
+  overflow: hidden;
+}
+
+
+/* client-says */
+.client-middle{
+  margin-left: 12%;
+}
+
+/* details */
+
+.details{
+  position:relative;
+  top:40px;
+
+
+}
+.contact,.map{
+  padding-top: 10px;
+  width:30%;
+}
+.email{
+  padding-top: 10px;
+  width:40%;
+}
+
+.header{
+  position:relative;
+  bottom:40px;
+  color:white;
+  text-decoration:none !important;
+
+}
+.header:hover{
+  color:white;
+}
+
+/* footer */
+.footer-row{
+  padding:30px;
+  margin-right: 0px !important;
+  /* padding-left: 0px !important; */
+}
+.footer-logo{
+  position:relative;
+  right:25px;
+}
+
+.footer-link{
+  text-decoration:none !important;
+  color:#C0C0C0;
+}
+
+.footer-link:hover{
+  color:white;
+}
+
+.stop{
+  list-style: none;
+}
+.fix{
+  padding-top: 100px;
+}
+
+
+/* about us page */
+
+.main{
+  background: url('img/about-image.jpg') no-repeat center center;
+  background-size:100% auto;
+  padding-top:8%;
+}
+
+/* text-animation */
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding:7% 5% 9% 5%;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.image img{
+  float:right;
+  width:400px;
+  height:auto;
+  margin:auto 10px auto 20px;
+}
+
+p{
+  text-align: justify;
+  font-size: 25px;
+}
+
+.wrapping{
+  margin:20px auto 20px auto;
+}
