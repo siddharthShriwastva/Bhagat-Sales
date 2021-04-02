@@ -142,8 +142,6 @@
 .details{
   position:relative;
   top:40px;
-
-
 }
 .contact,.map{
   padding-top: 10px;
@@ -174,6 +172,8 @@
 .footer-logo{
   position:relative;
   right:25px;
+  width:40%;
+  height: auto;
 }
 
 .footer-link{
@@ -189,7 +189,10 @@
   list-style: none;
 }
 .fix{
-  padding-top: 100px;
+  padding-top:2%;
+}
+.fix h3{
+  padding-bottom: 6%;
 }
 
 
@@ -226,7 +229,13 @@
   float:right;
   width:400px;
   height:auto;
-  margin:auto 10px auto 20px;
+  margin:10px 10px auto 20px;
+}
+.image-left img{
+  float:left;
+  width:400px;
+  height:auto;
+  margin:auto 10px auto 0px;
 }
 
 p{
@@ -236,4 +245,21 @@ p{
 
 .wrapping{
   margin:20px auto 20px auto;
+}
+
+.font-size{
+  font-size: 2px;
+  padding: 10px 10% 10px 30%;
+}
+
+.font-size p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.letter-spacing{
+  letter-spacing:2px;
+}
+.wrapping p{
+  font-size: 15px;
 }
